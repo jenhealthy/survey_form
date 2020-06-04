@@ -1,0 +1,32 @@
+html {
+  font-family: 'Mesmer', Helvetica Rounded Bold, san-serif;
+}
+
+body{
+background: 
+linear-gradient(
+ rgba(211,35,35,0.85),
+ rgba(211,35,35,0.65) 
+), 
+  url('https://images.pexels.com/photos/1861787/pexels-photo-1861787.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=1260') no-repeat fixed center;
+color: white;
+ opacity: 0.9;
+}
+
+#title, #description {
+  text-align: center;
+}
+
+#description {
+  margin-bottom: 30px;
+}
+
+#name, #email, #dropdown {
+  width: 500px;
+}
+
+
+.d-flex {
+   margin: 10px;
+}
+
